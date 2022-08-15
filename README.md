@@ -2,23 +2,23 @@
 
 ## 20 Perintah CMD dan Fungsinya
 
-1. Ver : Untuk menampikan nomor versi Windows
-2. Time : Untuk menampilkan waktu pada layar
-3. Start : Untuk membuka jendela cmd baru
-4. Systeminfo : Untuk menampilkan informasi komputer yang digunakan
-5. Dir : Untuk menampilkan file
-6. Cd : Untuk berpindah dari satu folder ke folder lain
-7. Sc : Untuk menampilkan informasi aplikasi
-8. Date : Untuk menampilkan tanggal pada layar
-9. Mkdir : Untuk membuat folder 
-10. Help : Untuk menampilkan fungsi yang bisa dipakai
-11. Del : Untuk menghapus file
-12. Ipconfig : Untuk melihat IP Address komputer
-13. Tasklist : Untuk menampilkan informasi aplikasi yang sedang berjalan
-14. Taskkill : Untuk menutup aplikasi
-15. Rd : Untuk menghapus direktori  
-16. Color : Untuk merubah warna 
-17. Timeout : Untuk menghentikan proses waktu yang ditentukan 
-18. Tree : Untuk melihat struktur dalam folder
-19. Cls : Untuk menghapus perintah yang telah digunakan 
-20. Exit : Untuk keluar dari aplikasi cmd
+1. VER : Displays the operating system version number. This command is supported in the Windows Command prompt (Cmd.exe), but not in PowerShell.
+2. TIME : Displays or sets the system time. If used without parameters, time displays the current system time and prompts you to enter a new time.
+3. START : Starts a separate Command Prompt window to run a specified program or command.
+4. SYSTEMINFO : Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties (such as RAM, disk space, and network cards).
+5. DIR : Displays a list of a directory's files and subdirectories. If used without parameters, this command displays the disk's volume label and serial number, followed by a list of directories and files on the disk (including their names and the date and time each was last modified). For files, this command displays the name extension and the size in bytes. This command also displays the total number of files and directories listed, their cumulative size, and the free space (in bytes) remaining on the disk.
+6. CD : Displays the name of the current directory or changes the current directory. If used with only a drive letter (for example, cd C:), cd displays the names of the current directory in the specified drive. If used without parameters, cd displays the current drive and directory.
+7. DATE : Displays or sets the system date. If used without parameters, date displays the current system date setting and prompts you to enter a new date.
+8. MKDIR : Creates a directory or subdirectory. Command extensions, which are enabled by default, allow you to use a single mkdir command to create intermediate directories in a specified path.
+9. HELP : Displays a list of the available commands or detailed help information on a specified command. If used without parameters, help lists and briefly describes every system command.
+10. DEL : Deletes one or more files. This command performs the same actions as the erase command.
+11. IPCONFIG : Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters, ipconfig displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+12. HOSTNAME : Displays the host name portion of the full computer name of the computer.
+13. TASKLIST : Displays a list of currently running processes on the local computer or on a remote computer. Tasklist replaces the tlist tool.
+14. TASKKILL : Ends one or more tasks or processes. Processes can be ended by process ID or image name. You can use the tasklist command command to determine the process ID (PID) for the process to be ended.
+15. RD : Deletes a directory.
+16. TIMEOUT : Pauses the command processor for the specified number of seconds. This command is typically used in batch files.
+17. FTYPE : Displays or modifies file types that are used in file name extension associations. If used without an assignment operator (=), this command displays the current open command string for the specified file type. If used without parameters, this command displays the file types that have open command strings defined.
+18. TREE : Displays the directory structure of a path or of the disk in a drive graphically. The structure displayed by this command depends upon the parameters that you specify at the command prompt. If you don't specify a drive or path, this command displays the tree structure beginning with the current directory of the current drive.
+19. CLS : Clears the Command Prompt window.
+20. EXIT : Exits the command interpreter or the current batch script.
