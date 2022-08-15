@@ -1,0 +1,26 @@
+PowerShell saves scripts in the ps1 format. Feel free to use your own custom folder and file names. For our demonstration, both a file and a folder have been created: 
+C:\Scripts\My First Script.ps1
+
+Step 1: Create the new ps1 file and add the Write-Host cmdlet (cmdlet is another word for command)
+Write-Host "Hello, World!"
+
+Step 2: Save your ps1 file and return to the PowerShell window. To run the script, the most common method is to call it in the PowerShell terminal. (You can also use the PowerShell ISE, or VS Code)
+& "C:\Scripts\My First Script.ps1"
+
+Go ahead and try that command. You should get an error that says scripts have been disabled on your system. This is for security reasons.
+
+In order to prevent malicious scripts from running on your system, PowerShell enforces an execution policy. There are four execution policies you can use:
+Restricted	Scripts won’t run. Period. (Default setting)
+RemoteSigned	Locally-created scripts will run. Scripts that were created on another machine will not run unless they are signed by a trusted publisher.
+AllSigned	Scripts will only run if signed by a trusted publisher (including locally-created scripts).
+Unrestricted	All scripts will run regardless of who created them and whether or not they are signed.
+
+Step 3: In order to use our newly created script, we will have to modify our execution policy to allow our example script to run. Since we have not digitally signed our new script, our options for setting the execution policy are left to “RemoteSigned” and “Unrestricted.” We are going to change it to RemoteSigned.
+
+Step 4: To change the execution policy, reopen PowerShell as an Administrator (the command will fail otherwise) and run the following command:
+Set-ExecutionPolicy RemoteSigned
+
+Step 5: The Set-ExecutionPolicy cmdlet will ask to verify that you really want to change the execution policy. Go ahead and select Y for yes, then go ahead and close and reopen your PowerShell window.
+
+After restarting the PowerShell window, try running your .ps1 script again.
+& "C:\Scripts\My First Script.ps1"
