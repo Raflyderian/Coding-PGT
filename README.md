@@ -1,24 +1,20 @@
-# Coding-PGT
+# Ruang Lingkup Pengembangan Software
 
-## 20 Perintah CMD dan Fungsinya
-
-1. VER : Displays the operating system version number. This command is supported in the Windows Command prompt (Cmd.exe), but not in PowerShell.
-2. TIME : Displays or sets the system time. If used without parameters, time displays the current system time and prompts you to enter a new time.
-3. START : Starts a separate Command Prompt window to run a specified program or command.
-4. SYSTEMINFO : Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties (such as RAM, disk space, and network cards).
-5. DIR : Displays a list of a directory's files and subdirectories. If used without parameters, this command displays the disk's volume label and serial number, followed by a list of directories and files on the disk (including their names and the date and time each was last modified). For files, this command displays the name extension and the size in bytes. This command also displays the total number of files and directories listed, their cumulative size, and the free space (in bytes) remaining on the disk.
-6. CD : Displays the name of the current directory or changes the current directory. If used with only a drive letter (for example, cd C:), cd displays the names of the current directory in the specified drive. If used without parameters, cd displays the current drive and directory.
-7. DATE : Displays or sets the system date. If used without parameters, date displays the current system date setting and prompts you to enter a new date.
-8. MKDIR : Creates a directory or subdirectory. Command extensions, which are enabled by default, allow you to use a single mkdir command to create intermediate directories in a specified path.
-9. HELP : Displays a list of the available commands or detailed help information on a specified command. If used without parameters, help lists and briefly describes every system command.
-10. DEL : Deletes one or more files. This command performs the same actions as the erase command.
-11. IPCONFIG : Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters, ipconfig displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
-12. HOSTNAME : Displays the host name portion of the full computer name of the computer.
-13. TASKLIST : Displays a list of currently running processes on the local computer or on a remote computer. Tasklist replaces the tlist tool.
-14. TASKKILL : Ends one or more tasks or processes. Processes can be ended by process ID or image name. You can use the tasklist command command to determine the process ID (PID) for the process to be ended.
-15. RD : Deletes a directory.
-16. TIMEOUT : Pauses the command processor for the specified number of seconds. This command is typically used in batch files.
-17. FTYPE : Displays or modifies file types that are used in file name extension associations. If used without an assignment operator (=), this command displays the current open command string for the specified file type. If used without parameters, this command displays the file types that have open command strings defined.
-18. TREE : Displays the directory structure of a path or of the disk in a drive graphically. The structure displayed by this command depends upon the parameters that you specify at the command prompt. If you don't specify a drive or path, this command displays the tree structure beginning with the current directory of the current drive.
-19. CLS : Clears the Command Prompt window.
-20. EXIT : Exits the command interpreter or the current batch script.
+1. Teknologi informasi
+   (TI) adalah penggunaan komputer untuk membuat, memproses, menyimpan, mengambil, dan bertukar semua jenis data dan informasi. TI merupakan bagian dari teknologi informasi dan komunikasi (TIK). Teknologi informasi juga merupakan cabang dari ilmu komputer, yang dapat didefinisikan sebagai studi keseluruhan tentang prosedur, struktur, dan pemrosesan berbagai jenis data. 
+   
+2. Ilmu komputer
+   adalah studi tentang teori, eksperimen, dan rekayasa yang membentuk dasar untuk desain dan penggunaan komputer. Definisi ilmu komputer alternatif yang lebih ringkas adalah studi tentang mengotomatisasi proses algoritmik yang berskala.
+ 
+3. Pengembangan perangkat lunak
+   adalah proses menyusun, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen perangkat lunak lainnya. 
+   
+4. Pengembangan perangkat lunak (Agile)
+   Dalam pengembangan perangkat lunak, praktik agile (terkadang ditulis Agile) mencakup penemuan kebutuhan dan peningkatan solusi melalui upaya kolaboratif dari tim yang mengatur diri sendiri dan lintas fungsi dengan pelanggan/pengguna akhir mereka
+   
+5. SCRUM
+   adalah kerangka kerja untuk manajemen proyek. Dirancang untuk tim yang terdiri dari sepuluh anggota atau kurang, yang membagi pekerjaan mereka menjadi tujuan yang dapat diselesaikan dalam iterasi kotak waktu, yang disebut sprint, tidak lebih dari satu bulan dan paling sering dua minggu.
+   
+6. Exstreme Progamming
+   (XP) adalah metodologi pengembangan perangkat lunak yang dimaksudkan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan pelanggan. Elemen lain dari pemrograman ekstrim meliputi: pemrograman berpasangan atau melakukan tinjauan kode ekstensif, pengujian unit semua kode, bukan fitur pemrograman sampai benar-benar dibutuhkan, struktur manajemen yang datar, kesederhanaan dan kejelasan kode, mengharapkan perubahan dalam persyaratan pelanggan seiring berjalannya waktu. 
+       
